@@ -1,0 +1,253 @@
+.sign-up-screen {
+  color: #7f7e83;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 19px;
+  display: flex;
+}
+
+.rectangle-660 {
+  text-align: center;
+  color: #fff;
+  height: 819px;
+
+  background: linear-gradient(#708fde 0%, #27ae60 100%);
+
+  background-size: cover;
+  flex-direction: row;
+  flex-basis: 55%;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-right: 26px;
+
+  font-size: 2.813rem;
+  font-weight: 500;
+  line-height: 61px;
+  display: flex;
+}
+
+.bImage {
+  width: 851px;
+  height: 819px;
+  opacity: 0.2;
+  position: absolute;
+  flex-basis: 55%;
+  align-items: stretch;
+}
+
+.rectangle-661 {
+  font-family: Avenir;
+  height: 945px;
+  width: 845px;
+  background-size: cover; 
+  background-position: center;
+  position: absolute;
+  flex-direction: column;
+  flex-basis: 100%;
+  align-items: stretch;
+  justify-content: center;
+  /*align-items: center; */
+  padding-left: 1px;
+  display: flex;
+
+}
+
+.the-on-demand-all-in {
+  margin-bottom: 25px;
+}
+
+.rectangle-5 {
+  width: 66px;
+  height: 8px;
+  object-fit: cover;
+  position: relative;
+  right: -400px;
+}
+
+.rectangle-662 {
+  height: 750px;
+  background-color: #fff;
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex-direction: column;
+  flex-basis: 36%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-left: 104px;
+  padding: 17px 3px 7px 63px;
+  display: flex;
+}
+
+.create-an-account {
+  color: #00a551;
+  margin-top: 1px;
+  margin-bottom: 34px;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.forms{
+
+  display: grid;
+  flex-direction: column;
+  padding-bottom: 40px;
+
+}
+
+.forms.name {
+  align-self: flex-start;
+  margin-top: 3px;
+  margin-left: 1px;
+}
+
+.rectangle-2 {
+  color: #00000080;
+  width: 475px;
+  height: 48px;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  border: 1px solid #00a551;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 16px;
+  display: flex;
+
+}
+
+.work-email {
+  margin-top: 20px;
+  height: 19px;
+  align-self: flex-start;
+}
+
+.rectangle-2-1 {
+  color: #00000080;
+  width: 475px;
+  height: 48px;
+  background-color: #f4f4f4;
+  border: 1px solid #c0c0ca;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 16px;
+  display: flex;
+}
+
+.telephone {
+  margin-top: 20px;
+  align-self: flex-start;
+  height: 19px;
+}
+
+.rectangle-2-2 {
+  color: #00000080;
+  width: 475px;
+  height: 48px;
+  background-color: #f4f4f4;
+  border: 1px solid #c0c0ca;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 16px;
+  display: flex;
+}
+
+.password {
+  margin-top: 20px;
+  align-self: flex-start;
+  margin-left: 1px;
+  height: 19px;
+}
+
+.rectangle-2-3 {
+  color: #00000080;
+  width: 475px;
+  height: 48px;
+  background-color: #f4f4f4;
+  border: 1px solid #c0c0ca;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 16px;
+  display: flex;
+}
+
+
+.confirm-password {
+  margin-top: 20px;
+  align-self: flex-start;
+  margin-left: 1px;
+}
+
+.rectangle-2-4 {
+  color: #00000080;
+  width: 475px;
+  height: 48px;
+  background-color: #f4f4f4;
+  border: 1px solid #c0c0ca;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-basis: 6%;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 18px;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 16px;
+  display: flex;
+}
+
+input:invalid:not(:placeholder-shown){
+  border: 2px solid red;
+}
+
+input:valid:not(:placeholder-shown){
+  border: 2px solid green;
+}
+
+.button-instance-1 {
+  height: 56px;
+  width: 294px;
+  flex-basis: 7%;
+  margin-top: 2px;
+  margin-bottom: 12px;
+  margin-left: 75px;
+}
+
+.already-have-an-acco {
+  text-align: center;
+  color: #474749;
+  margin-top: 1px;
+  margin-bottom: 6px;
+}
