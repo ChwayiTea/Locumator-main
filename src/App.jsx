@@ -1,4 +1,4 @@
-import FormDataComponent from './components/formData.component';
+//import FormDataComponent from './components/formData.component';
 import React, {Component, useState, useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
 import "./App.scss";
