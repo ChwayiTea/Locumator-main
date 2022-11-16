@@ -17,7 +17,7 @@
   text-align: center;
   color: #fff;
   height: 819px;
-
+  position: absolute:
   background: linear-gradient(#708fde 0%, #27ae60 100%);
 
   background-size: cover;
@@ -34,7 +34,7 @@
 }
 
 .bImage {
-  width: 851px;
+  width: 885px;
   height: 819px;
   opacity: 0.2;
   position: absolute;
@@ -45,18 +45,18 @@
 .rectangle-661 {
   font-family: Avenir;
   height: 945px;
-  width: 845px;
+  width: 825px;
   background-size: cover; 
   background-position: center;
-  position: absolute;
+  position: relative;
   flex-direction: column;
   flex-basis: 100%;
   align-items: stretch;
   justify-content: center;
   /*align-items: center; */
-  padding-left: 1px;
+  padding-left: 8px;
   display: flex;
-
+  margin-left: 55px;
 }
 
 .the-on-demand-all-in {
@@ -81,9 +81,10 @@
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 25px;
-  margin-left: 104px;
+  margin-left: 1050px;
   padding: 17px 3px 7px 63px;
   display: flex;
+  position: relative;
 }
 
 .create-an-account {
